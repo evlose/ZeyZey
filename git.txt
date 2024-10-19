@@ -1,0 +1,25 @@
+This to authentify yourself to git so it allows you to commit
+git config --global user.name "TonNom"
+git config --global user.email "TonEmail"
+
+This is to clone a repository : You only do this the first time.
+git clone
+
+Initialize your repository
+git init
+
+Prepare a file to add to your repository 
+git add nomDuFichier
+
+Create a commit and a message explaining why you're pushing stuff in github
+git commit -m "Message du commit"
+
+
+To know in which branch you are
+git branch
+
+To switch to another branch
+git checkout another_branch
+
+Puts the file in your repository
+git push 
